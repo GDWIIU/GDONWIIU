@@ -15,6 +15,11 @@ int main(int argc, char *argv[], char *envp[]) {
     printl(STDLOG_PATH, "Startup GDONWIIU\n");
 
     struct GDONWIIU_DATA gdonwiiu_data = initGDONWIIU_Struct();
+    if (&gdonwiiu_data == NULL) {
+        fprintf(stderr, "Failed to initialize GDONWIIU_DATA structure\n");
+        printl(STDLOG_PATH, "Error: Failed to initialize GDONWIIU_DATA structure\n");
+        return EXIT_FAILURE;
+    }
     printl(STDLOG_PATH, "Initialized standard data structure at pointer: ");
     printldbgptr(STDLOG_PATH, &gdonwiiu_data);
     printl(STDLOG_PATH, "\n"); // eol terminator

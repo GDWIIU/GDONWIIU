@@ -13,11 +13,20 @@
 
 int printl(char *_file, char *_data) {
     FILE *file = fopen(_file, "a");
+    if (file == NULL) {
+        return -1; // Return error code if file cannot be opened
+    }
     fprintf(file, "%s", _data);
     fclose(file);
+    return 0; // Return success code
 }
+
 int printldbgptr(char *_file, void *_ptr) {
     FILE *file = fopen(_file, "a");
+    if (file == NULL) {
+        return -1; // Return error code if file cannot be opened
+    }
     fprintf(file, "%p", _ptr);
     fclose(file);
+    return 0; // Return success code
 }
