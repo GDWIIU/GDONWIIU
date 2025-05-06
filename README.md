@@ -16,5 +16,5 @@ GDONWIIU source tree, use this repo if you want to build the project on your Wii
 
 
 
-    Youtube: https://youtube.com/channel/@gdeuke_ ( subscribe plx )
+    Youtube: https://youtube.com/channel/@gdeuke ( subscribe plx )
   
