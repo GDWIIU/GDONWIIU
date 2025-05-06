@@ -10,11 +10,11 @@ GDONWIIU source tree, use this repo if you want to build the project on your Wii
     SPDX-License-Identifier: GNU GPLv3        ( View at ./LICENSE )
 
 
-    Copywrite (c) GDDanny
+    Copywrite (c) EukeGD
 
     All rights reserved
 
 
 
-    Youtube: https://youtube.com/channel/@gd.danyboy ( subscribe plx )
+    Youtube: https://youtube.com/channel/@gdeuke_ ( subscribe plx )
   
