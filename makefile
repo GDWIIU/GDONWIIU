@@ -1,3 +1,19 @@
 # MakeFile source for GDONWIIU
 
-INCLUDE_PATH="./"
+I="./"
+C="gcc"
+
+# Prebuild install directory
+install_dir:
+	mkdir _install
+	mkdir _install/services
+	mkdir _install/scripts
+	mkdir _install/documents
+
+# Service makes
+aptpkg.c:
+	$C services/aptpkg.c -o _install/services/aptpkg -i $I
+
+# Inital makes
+main.c:
+	$C ini/main.c -o _install/main -i $I
