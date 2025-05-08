@@ -13,6 +13,8 @@ install_dir:
 # Service makes
 aptpkg.c:
 	$C services/aptpkg.c -o _install/services/aptpkg -i $I
+gdunpack.c:
+	$C services/gdunpack.c -o _install/services/gdunpack -i $I
 
 # Inital makes
 main.c:
