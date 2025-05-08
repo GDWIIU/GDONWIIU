@@ -9,6 +9,7 @@ install_dir:
 	mkdir _install/services
 	mkdir _install/scripts
 	mkdir _install/documents
+	cp -r ./logs _install/logs
 
 # Service makes
 aptpkg.c:
